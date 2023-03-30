@@ -1,0 +1,30 @@
+{
+  "build": {
+    "simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "FIREBASE_APP_CHECK_DEBUG_TOKEN": "58226D0D-C794-42B0-A4BB-BEC75A32F508"
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "FIREBASE_APP_CHECK_DEBUG_TOKEN": "58226D0D-C794-42B0-A4BB-BEC75A32F508"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "testflight": {
+      "distribution": "store"
+    },
+    "production": {
+      "distribution": "store"
+    }
+  }
+}
